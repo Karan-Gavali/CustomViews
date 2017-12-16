@@ -41,7 +41,7 @@ class SpinnerView: UIView {
         animation.duration = 0.5
         animation.fromValue = NSValue(cgPoint: CGPoint(x: 0, y: 0))
         animation.toValue = NSValue(cgPoint: CGPoint(x: 1, y: 1))
-        shapeLayer.add(animation, forKey: "scale")
+        scaleLayer.add(animation, forKey: "scale")
         
         CATransaction.setCompletionBlock({
             self.scaleLayer.removeAllAnimations()
@@ -55,7 +55,7 @@ class SpinnerView: UIView {
         animation1.duration = 1
         animation1.fromValue = NSValue(cgPoint: CGPoint(x: 0, y: 0))
         animation1.toValue = NSValue(cgPoint: CGPoint(x: 1, y: 1))
-        scaleLayer.add(animation1, forKey: "scaleSecond")
+        shapeLayer.add(animation1, forKey: "scaleSecond")
         CATransaction.commit()
     }
     
