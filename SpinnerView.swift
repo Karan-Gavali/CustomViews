@@ -1,6 +1,6 @@
 //
 //  SpinnerView.swift
-//  CoreDataDemo
+//  Spinner
 //
 //  Created by Karan Gavali on 16/12/17.
 //  Copyright © 2017 Karan Gavali. All rights reserved.
